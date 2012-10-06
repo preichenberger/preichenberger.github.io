@@ -1,4 +1,9 @@
 a.brand {
-  color: green;
+  color: inherit;
   font-weight: inherit;
+}
+a.brand:hover {
+  text-decoration: none;
+  color: #39C;
+  cursor: pointer;
 }
