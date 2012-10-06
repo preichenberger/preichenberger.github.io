@@ -5,7 +5,7 @@ title: Thor Subcommands and Formatting
 
 We have a project that has CLI to perform a number of functions. 
 In Ruby, optparse is pretty good, but we wanted subcommands similar to Heroku''s wonderful
-client. Enter [Thor](https://github.com/wycats/thor 'Thor'). Thor maps add command line arguments to class methods.
+client. Enter [Thor](https://github.com/wycats/thor 'Thor'). Thor maps command line arguments to class methods.
 It wasn''t entirely clear how to do subcommands from the docs, but here''s how to use subcommands in Thor.
 
 ### Setup your subcommand (example):
