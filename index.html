@@ -2,9 +2,10 @@
 layout: default
 title: Philcolabs
 ---
-
-{% for post in site.posts %}
-  <h2><a class="post" href="{{ post.url }}">{{ post.title }}</a></h2>
-  <i>{{ post.date | date: '%B %m, %Y' }}</i>
-  {{ post.content }}
-{% endfor %}
+<div class="posts">
+  {% for post in site.posts %}
+    <h2><a class="post" href="{{ post.url }}">{{ post.title }}</a></h2>
+    <i>{{ post.date | date: '%B %m, %Y' }}</i>
+    {{ post.content }}
+  {% endfor %}
+</div>
