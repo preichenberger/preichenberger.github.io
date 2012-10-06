@@ -8,7 +8,7 @@ In Ruby, optparse is pretty good, but we wanted subcommands similar to Heroku''s
 client. Enter [Thor](https://github.com/wycats/thor 'Thor'). Thor maps command line arguments to class methods.
 It wasn''t entirely clear how to do subcommands from the docs, but here''s how to use subcommands in Thor.
 
-### Setup your subcommand (example):
+### Setup your subcommand:
 {% highlight ruby %}
 require 'thor'
 
@@ -22,7 +22,7 @@ class SubCommand < Thor
 end
 {% endhighlight %}
 
-### Use subcommand in main command (example):
+### Use subcommand in main command:
 {% highlight ruby %}
 class Command < Thor
 
@@ -34,7 +34,7 @@ end
 
 After getting our subcommands working, we wanted the output to be formatted to our needs. You can override the following methods to the formatting you want out of Thor.
 
-### Example:
+### Thor formatting methods to override:
 {% highlight ruby %}
 require 'thor'
 

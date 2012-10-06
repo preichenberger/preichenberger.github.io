@@ -20,7 +20,7 @@ with
     {{ "{{ content | markdownify " }}}}
 
 You can now have the ease of markdown with the flexibility of liquid extensions.
-### Markdown mixed with liquid extensions (example):
+### Markdown mixed with liquid extensions:
     [Markdown Link](http://www.philcolabs.com)
 
     {{ "{% highlight ruby %" }}}
