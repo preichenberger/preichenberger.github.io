@@ -1,20 +1,18 @@
-a.brand, a.post {
+.post {
+  margin-bottom: 0;
+}
+
+.post a {
+  font-weight: inherit;
+}
+
+a.brand {
   font-weight: inherit;
   color: inherit;
 }
 
-a.brand:hover, a.post:hover {
+a.brand:hover {
   text-decoration: none;
   color: #39C;
   cursor: pointer;
-}
-
-section {
-  margin-top: 10%;
-}
-
-@media (max-width: 767px) {
-  section {
-    margin: inherit;
-  }
 }
