@@ -3,4 +3,6 @@ layout: default
 title: Philcolabs
 ---
 
-{{site.posts}}
+{% for post in site.posts %}
+  {{ post.title }}
+{% endfor %}
