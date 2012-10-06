@@ -8,7 +8,7 @@ to host this blog, we wanted to have
 syntax highlighting and use Markdown at the same time.
 Jekyll supports syntax highlighting directly through
 [liquid extensions](https://github.com/mojombo/jekyll/wiki/Liquid-Extensions),
-but what if we wanted to use markdown instead? Convert it!
+but we want to use markdown. How can we use both? Convert it!
 
 You''ll first need to install [Pygments](http://pygments.org), a python library that offers syntax highlighting for a number of languages.
 
