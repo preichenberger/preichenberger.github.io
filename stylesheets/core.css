@@ -3,8 +3,12 @@ a.brand {
   color: inherit;
 }
 
-a.brand:hover {
+a.brand:hover, {
   text-decoration: none;
   color: #39C;
   cursor: pointer;
+}
+
+a.post {
+  font-weight: inherit;
 }
