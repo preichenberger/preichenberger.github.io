@@ -10,7 +10,7 @@ a.brand:hover, a.post:hover {
 }
 
 section {
-  margin-top: 5%;
+  margin-top: 10%;
 }
 
 @media (max-width: 767px) {
