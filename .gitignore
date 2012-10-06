@@ -1,1 +1,5 @@
+.bundle
+_site
+bin
+vendor
 *swp
