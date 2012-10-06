@@ -1,7 +1,8 @@
 a.brand {
-  color: inherit;
   font-weight: inherit;
+  color: inherit;
 }
+
 a.brand:hover {
   text-decoration: none;
   color: #39C;

@@ -4,7 +4,7 @@ title: Philcolabs
 ---
 
 {% for post in site.posts %}
-  <h2>{{ post.title }}</h2>
+  <h2><a class="brand" href="{{ post.url }}">{{ post.title }}</a></h2>
   <p>{{ post.date | date: '%B %m, %Y' }}</p>
   {{ post.content }}
 {% endfor %}
