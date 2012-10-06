@@ -4,5 +4,7 @@ title: Philcolabs
 ---
 
 {% for post in site.posts %}
-  {{ post.title }}
+  <h2>{{ post.title }}</h2>
+  <p>{{ post.date | date: '%B %m, %Y' }}</p>
+  {{ post.content }}
 {% endfor %}
