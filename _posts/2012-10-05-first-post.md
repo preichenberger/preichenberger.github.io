@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Philcolabs on Github Pages and Jekyll
+author: Phil Reichenberger
 ---
 
 Trying out [Jekyll](https://help.github.com/articles/using-jekyll-with-pages 'Jekyll Github Repo') 

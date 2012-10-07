@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Thor Subcommands and Formatting
+author: Phil Reichenberger
 ---
 
 We have a project that has CLI to perform a number of functions. 
