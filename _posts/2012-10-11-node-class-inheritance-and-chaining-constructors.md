@@ -19,13 +19,12 @@ var domainHandler = function(name) {
 }
 
 util.inherits(domainHandler, baseHandler)
+var dh = new domainHandler('myname')
 
-// This has to come after inherits
-domainHandler.prototype.test() = function() {
-  console.log(domainHandler.name)
+dh.test = function() {
+  console.log(dh.name)
 }
 
-var dh = new domainHandler('myname')
 
 // This will output 'myname'
 dh.test()
