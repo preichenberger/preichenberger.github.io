@@ -10,20 +10,21 @@ This is an example of how to do node class inheritance and chain constructors:
 {% highlight javascript %}
 var util = require('util')
 
-var baseHandler = function(name) {
-  baseHandler.prototype.name = name
+function BaseHandler(name) {
+  this.name = name
 }
 
-baseHandler.prototype.test = function() {
-  console.log(baseHandler.prototype.name)
+BaseHandler.prototype.test = function() {
+  console.log(this.name)
 }
 
-var domainHandler = function(name) {
-  domainHandler.super_(name)  
+function DomainHandler(name) {
+  DomainHandler.super_.bind(this)(name)
 }
 
-util.inherits(domainHandler, baseHandler)
-var dh = new domainHandler('myname')
+util.inherits(DomainHandler, BaseHandler)
+var dh = new DomainHandler('myname')
+
 
 // This will output 'myname'
 dh.test()
