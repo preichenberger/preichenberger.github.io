@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Rack and Vhost
+title: Ruby, Rack, and Vhost
 author: Phil Reichenberger
 ---
 
