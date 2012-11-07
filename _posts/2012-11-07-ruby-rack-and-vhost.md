@@ -27,6 +27,6 @@ Example config.ru using rack-vhost:
       end
     end
 
-    use Rack::Vhost, :vhost => /^api/, :app => APIApp.new
-    use Rack::Vhost, :vhost => /www.philcolabs.com/, :app => MainApp.new
+    use Rack::Vhost, :vhost => '^api', :app => APIApp.new
+    use Rack::Vhost, :vhost => 'www.philcolabs.com', :app => MainApp.new
     run Router.new
