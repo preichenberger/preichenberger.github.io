@@ -4,7 +4,7 @@ title: Node Auto Reload
 author: Phil Reichenberger
 ---
 
-Restarting an application is a common task during node development. However, if you're like me and hate restarting your app everytime you make a code change, then your in luck! 
+Restarting an application is a common task during node development. However, if you're like me and hate restarting your app everytime you make a code change then you're in luck! 
 
 [node-dev](https://github.com/fgnass/node-dev) will restart the app everytime you save a change to your code. One of the best parts of node-dev is that no configuration is required. This was a great suprise after having a run in with [node-supervisor](https://github.com/isaacs/node-supervisor) 
 
