@@ -15,25 +15,25 @@ Also:
 > This does not only work for .js files, but also for .json or .node or .coffee files or any other custom extension that has been added to require.extensions.
 
 The doc's suggest to install node-dev globally with:
-{% highlight %}
+{% highlight bash %}
 npm install -g node-dev
-{% endhighlight %}
+{% endhighlight bash %}
 
 I'm a stickler when it comes to dependencies so I like to install into a node_modules bundle.
 
 ### Create your app directory:
-{% highlight %}
+{% highlight bash %}
 mkdir app
-{% endhighlight %}
+{% endhighlight bash %}
 
 ### Create sample app at app/app.js:
-{% highlight javascript %}
+{% highlight bash javascript %}
 var express = require('express');
 var app = express();
-{% endhighlight %}
+{% endhighlight bash %}
 
 ### Setup your package.json at app/package.json:
-{% highlight javascript %}
+{% highlight bash javascript %}
 {
   "name": "app",
   "description": "This app does stuff",
@@ -46,23 +46,23 @@ var app = express();
     "node-dev": "*"
   }
 }
-{% endhighlight %}
+{% endhighlight bash %}
 
 ### Install node_modules:
-{% highlight %}
+{% highlight bash %}
 cd app
 npm install
-{% endhighlight %}
+{% endhighlight bash %}
 
 ### Run app with node-dev:
-{% highlight %}
+{% highlight bash %}
 cd app
 node_modules/node-dev/node-dev app.js
-{% endhighlight %}
+{% endhighlight bash %}
 
 Now open up app.js make a change and save and you should see the following in console:
-{% highlight %}
+{% highlight bash %}
 [INFO] Restarting
-{% endhighlight %}
+{% endhighlight bash %}
 
 And that's it, no more reloading your app during development

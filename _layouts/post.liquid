@@ -2,8 +2,15 @@
 layout: default
 ---
 
+{% case page.author %}
+{% when 'Phil Reichenberger' %}
+  {% assign github = 'preichenberger' %}
+{% else %}
+  {% assign github = 'philcolabs' %}
+{% endcase %}
+
 <h2 class="post">{{ page.title }}</h2>
-<p>{{ page.date | date: '%B %m, %Y' }} - by {{ page.author }}</p>
+<p>{{ page.date | date: '%B %m, %Y' }} - by <a href='http://www.github.com/{{ github }}'> {{ page.author }}</a></p>
 {{ content | markdownify }}
 
 <div id="disqus_thread"></div>
