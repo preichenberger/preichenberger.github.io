@@ -14,26 +14,28 @@ According to the github page the magic behind the no configuration is:
 Also:
 > This does not only work for .js files, but also for .json or .node or .coffee files or any other custom extension that has been added to require.extensions.
 
-The doc's suggest to install node-dev globally with:
+The docs suggest to install node-dev globally with:
+
+### Global install of node-dev
 {% highlight bash %}
 npm install -g node-dev
-{% endhighlight bash %}
+{% endhighlight %}
 
 I'm a stickler when it comes to dependencies so I like to install into a node_modules bundle.
 
 ### Create your app directory:
 {% highlight bash %}
 mkdir app
-{% endhighlight bash %}
+{% endhighlight %}
 
 ### Create sample app at app/app.js:
-{% highlight bash javascript %}
+{% highlight javascript %}
 var express = require('express');
 var app = express();
-{% endhighlight bash %}
+{% endhighlight %}
 
 ### Setup your package.json at app/package.json:
-{% highlight bash javascript %}
+{% highlight javascript %}
 {
   "name": "app",
   "description": "This app does stuff",
@@ -46,23 +48,25 @@ var app = express();
     "node-dev": "*"
   }
 }
-{% endhighlight bash %}
+{% endhighlight %}
 
 ### Install node_modules:
 {% highlight bash %}
 cd app
 npm install
-{% endhighlight bash %}
+{% endhighlight %}
 
 ### Run app with node-dev:
 {% highlight bash %}
 cd app
 node_modules/node-dev/node-dev app.js
-{% endhighlight bash %}
+{% endhighlight %}
 
 Now open up app.js make a change and save and you should see the following in console:
+
+### node-dev restart output
 {% highlight bash %}
 [INFO] Restarting
-{% endhighlight bash %}
+{% endhighlight %}
 
 And that's it, no more reloading your app during development
