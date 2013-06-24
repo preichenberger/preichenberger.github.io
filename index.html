@@ -1,11 +1,21 @@
 ---
 layout: default
-title: Philcolabs
+title: Philip Reichenberger
 ---
 
 <div class="posts">
-  {% for post in site.posts %}
-    <h2 class="post"><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    <p>{{ post.date | date: '%B %m, %Y' }} - by {{ post.author }}</p>
+  {% for post in paginator.posts %}
+    <div class="row">
+      <div class="col col-lg-2">
+        <h4>
+          <small>{{ post.date | date: '%b %m, %Y' }}</small>
+        </h4>
+      </div>
+      <div class="col col-lg-9">
+        <h4> 
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </h4>
+      </div>
+    </div>
   {% endfor %}
 </div>

@@ -1,18 +1,21 @@
-.post {
-  margin-bottom: 0;
+body {
+  font-family: Arvo, serif;
 }
 
-.post a {
-  font-weight: inherit;
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: Arvo, serif;
 }
 
 a.brand {
-  font-weight: inherit;
-  color: inherit;
+  color: #000;
 }
 
 a.brand:hover {
-  text-decoration: none;
-  color: #39C;
-  cursor: pointer;
+  color: none;
+  text-decoration: none; 
+}
+
+.posts {
+  border-top: 1px solid #ddd;
+  padding-top: 20px;
 }
