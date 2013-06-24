@@ -19,6 +19,11 @@ a:hover {
   text-decoration: none;
 }
 
+.avatar {
+  height: 128px;
+  border-radius: 200px;
+}
+
 .posts {
   border-top: 1px solid #ddd;
   padding-top: 20px;
