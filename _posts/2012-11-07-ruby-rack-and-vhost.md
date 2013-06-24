@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Ruby, Rack, and Vhost
-author: Phil Reichenberger
 ---
 
 [Sinatra](http://www.sinatrarb.com/) is a great microframework for web apps. One of the great things about Sinatra is that it's [Rack](http://rack.github.com/) based so you can add middleware! I couldn't find any easy way to have multiple vhosts for Sinatra so I made my own middleware, [rack-vhost](http://github.com/preichen/rack-vhost) I can now have multiple Sinatra apps be accessed through one router app!

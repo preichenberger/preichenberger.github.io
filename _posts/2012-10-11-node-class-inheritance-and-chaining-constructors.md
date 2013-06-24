@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Node Class Inheritance and Chaining Constructors
-author: Phil Reichenberger
 ---
 
 This is an example of how to do node class inheritance and chain constructors:

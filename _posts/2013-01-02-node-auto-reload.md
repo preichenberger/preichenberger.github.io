@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Node Auto Reload
-author: Phil Reichenberger
 ---
 
 Restarting an application is a common task during node development. However, if you're like me and hate restarting your app everytime you make a code change then you're in luck! 

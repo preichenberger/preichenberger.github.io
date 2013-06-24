@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Ruby Syntax Highlighting with Jekyll and Markdown
-author: Phil Reichenberger
 ---
 
 While getting accustomed to using [Jekyll](https://github.com/mojombo/jekyll)

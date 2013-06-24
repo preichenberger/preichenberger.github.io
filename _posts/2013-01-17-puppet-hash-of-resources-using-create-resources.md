@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Puppet, Hash of Resources Using create_resources
-author: Phil Reichenberger
 ---
 
 Puppet can be overwhelming. From modules, to classes, to defines, includes, 
