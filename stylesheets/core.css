@@ -15,6 +15,10 @@ a.brand:hover {
   text-decoration: none; 
 }
 
+a:hover {
+  text-decoration: none;
+}
+
 .posts {
   border-top: 1px solid #ddd;
   padding-top: 20px;
