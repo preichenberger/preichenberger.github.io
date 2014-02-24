@@ -24,7 +24,15 @@ a:hover {
   border-radius: 200px;
 }
 
-.posts {
-  border-top: 1px solid #ddd;
-  padding-top: 20px;
+body {
+  background-color: #eeeeee;
+}
+
+header {
+  padding-top: 35%;
+}
+
+
+.text-light {
+  color: #FFF;
 }
