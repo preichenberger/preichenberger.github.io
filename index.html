@@ -3,43 +3,73 @@
   <head>
     <title>Philip Reichenberger</title>
     <meta name="description" content="Late night product builder and occasional pirate ship captain. &lt;br/&gt;Previously at Shutterstock and Mirthly."/>
-    <link rel='stylesheet' href='/css/bootstrap.min.css' type='text/css' media='all'/>
-    <link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,800italic,400,700,800|Gentium+Book+Basic:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+    <link rel='stylesheet' href='css/bootstrap.min.css' type='text/css' media='all'/>
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="canonical" href="http://www.philipreichenberger.com/"/>
 
     <style>
-    </style>
+      * {
+        font-family: 'Open Sans', Arial;
+      }
 
+      .card {
+        margin-top: 20vh;
+      }
+      .card img {
+        height: 120px;
+        width: 120px;
+      }
+
+      .icon-link:hover {
+        text-decoration: none;
+      }
+      .icon-link:hover .fa-stack-2x {
+        color: #337ab7; 
+      }
+      .icon-link:hover .fa-stack-1x {
+        color: white; 
+      }
+
+      .text-bold {
+        font-weight: 700;
+      } 
+      .text-light {
+        color: white;
+      }
+    </style>
   </head>
   <body>
-    <div class="container">
+    <div class="container card">
       <div class="row">
-        <div class="col-md-12">
-          <img class="img-rounded center-block" alt="Philip Reichenberger" src="http://www.gravatar.com/avatar/a30359656f49e61014aa85c5ca53f5f9?d=404&amp;s=250" title="Philip Reichenberger"/>
-          <h2 class="text-uppercase text-center">Philip Reichenberger</h2>
-          <p class="lead">Late night product builder and occasional pirate ship captain. Previously at Shutterstock and Mirthly.</p>
+        <div class="col-md-6 col-md-offset-3 text-center">
+          <img class="img-circle center-block" alt="Philip Reichenberger" src="http://www.gravatar.com/avatar/a30359656f49e61014aa85c5ca53f5f9?d=404&amp;s=250" title="Philip Reichenberger"/>
+          <h1 class="text-uppercase text-primary text-bold">Philip Reichenberger</h1>
+          <p class="text-muted">Late night product builder and occasional pirate ship captain. Previously at Shutterstock and Mirthly.</p>
+          <br/>
           <h4>
-            <a href="http://www.twitter.com/preichenberger" target="_blank">
-              <span class="icon-stack">
-                <i class="icon icon-circle icon-stack-base"/>
-                <i class="icon icon-twitter text-light"/>
+            <a href="http://www.twitter.com/preichenberger" target="_blank" class="icon-link">
+              <span class="fa-stack">
+                <i class="fa fa-circle fa-stack-2x text-light"></i>
+                <i class="fa fa-twitter text-muted fa-stack-1x"></i>
               </span>
             </a>
-            <a href="http://www.github.com/preichenberger" target="_blank">
-              <span class="icon-stack">
-                <i class="icon icon-circle icon-stack-base"></i>
-                <i class="icon icon-github text-light"></i>
+            <a href="http://www.github.com/preichenberger" target="_blank" class="icon-link">
+              <span class="fa-stack">
+                <i class="fa fa-circle fa-stack-2x text-light"></i>
+                <i class="fa fa-github text-muted fa-stack-1x"></i>
               </span>
             </a>
-            <a href="/cdn-cgi/l/email-protection#1a6a687f7379727f74787f687d7f685a6a7273767975767b786934797577" target="_blank">
-              <span class="icon-stack">
-                <i class="icon icon-circle icon-stack-base"></i>
-                <i class="icon icon-envelope text-light"></i>
+            <a href="http://www.linkedin.com/in/philipreichenberger" target="_blank" class="icon-link">
+              <span class="fa-stack">
+                <i class="fa fa-circle fa-stack-2x text-light"></i>
+                <i class="fa fa-linkedin text-muted fa-stack-1x"></i>
               </span>
             </a>
+
           </h4>
+
         </div>
       </div>
     </div>
