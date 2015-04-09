@@ -1,7 +1,0 @@
-auto: true
-safe: true
-lsi: false
-pygments: true
-permalink: '/:year/:month/:day/:title'
-source: '.'
-exclude: ['bin', 'vendor', 'Gemfile', 'Gemfile.lock']
