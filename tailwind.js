@@ -193,7 +193,7 @@ const config = {
 
   fonts: {
     sans: [
-      'Montserrat',
+      'Roboto',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
