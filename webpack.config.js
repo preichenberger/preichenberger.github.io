@@ -72,13 +72,13 @@ const config = {
     ],
   },
   output: {
+    filename: 'main.[chunkhash].js',
     path: path.resolve(__dirname),
     publicPath: '/',
   },
   plugins: [
     new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin({
-      hash: true,
       template: 'src/index.html',
     }),
     new HTMLInlineCSSWebpackPlugin(),
