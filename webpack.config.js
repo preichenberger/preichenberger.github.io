@@ -78,6 +78,7 @@ const config = {
   plugins: [
     new MiniCssExtractPlugin(),
     new HtmlWebpackPlugin({
+      hash: true,
       template: 'src/index.html',
     }),
     new HTMLInlineCSSWebpackPlugin(),
