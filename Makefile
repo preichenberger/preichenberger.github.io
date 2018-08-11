@@ -5,7 +5,7 @@ deploy:
 	npx webpack -c webpack.config.js
 
 fmt:
-	npx prettier --single-quote --trailing-comma es5 --write "**/*.js" "**/*.css"
+	npx prettier --single-quote --trailing-comma es5 --ignore-path main.js --write "**/*.js" "**/*.css" 
 	npx stylelint --config .stylelintrc.json --fix "**/*.(s)css"
 
 lint:
