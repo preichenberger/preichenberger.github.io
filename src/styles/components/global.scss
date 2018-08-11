@@ -4,9 +4,9 @@ html {
 
 a {
   @apply no-underline;
-  @apply text-blue-lighter;
+  @apply text-blue-light;
 }
 
 a:hover {
-  @apply text-blue-light;
+  @apply text-blue;
 }
