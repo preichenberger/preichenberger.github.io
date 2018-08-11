@@ -193,7 +193,7 @@ const config = {
 
   fonts: {
     sans: [
-      'Roboto',
+      'Open Sans',
       'system-ui',
       'BlinkMacSystemFont',
       '-apple-system',
