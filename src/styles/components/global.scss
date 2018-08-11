@@ -1,0 +1,12 @@
+html {
+  @apply font-sans;
+}
+
+a {
+  @apply no-underline;
+  @apply text-blue-lighter;
+}
+
+a:hover {
+  @apply text-blue-light;
+}
