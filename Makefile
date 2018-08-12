@@ -1,7 +1,7 @@
 build:
 	npm install
 
-deploy:
+dist:
 	rm -rf main.*.js
 	npx webpack -c webpack.config.js
 	git add main.*.js
